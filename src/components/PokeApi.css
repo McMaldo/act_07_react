@@ -1,0 +1,17 @@
+article.pkm{
+  width:220px;
+  display:flex;
+  flex-direction:column;
+  background-color:rgb(180, 180, 180);
+  text-transform: capitalize;
+  border-radius: 20px;
+  padding:10px 30px;
+  color: black;
+  div{
+    display:flex;
+    justify-content:space-between;
+    .pkmName{
+      text-decoration:underline;
+    }
+  }
+}
