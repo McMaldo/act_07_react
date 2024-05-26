@@ -22,7 +22,6 @@
     background-color:rgb(180, 180, 180);
     text-transform:capitalize;
     border-radius:20px;
-    overflow:hidden;
     padding:10px;
     color:#000;
     position:relative;
@@ -64,10 +63,10 @@
         transition:2s ease-in-out;
       }
     }
-  }
-  .desc-container:hover{
-    .desc{
-      height:fit-content;
+    .desc-container:hover{
+      .desc{
+        height:fit-content;
+      }
     }
   }
 }
